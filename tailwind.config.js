@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./layouts/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {  
+      fontFamily:{
+      press: "'Press Start 2P', 'cursive'" 
+} ,
+},
   },
+
   plugins: [],
 }
